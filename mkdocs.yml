@@ -19,3 +19,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+plugins:
+  - minify:
+      minify_html: true
