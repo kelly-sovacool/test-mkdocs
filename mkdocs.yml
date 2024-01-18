@@ -1,39 +1,4 @@
 site_name: My Docs
-theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.top
-    - navigation.indexes
-    - toc.integrate
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: red
-      accent: red
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-
-plugins:
-  - search
-  - git-revision-date
-  - minify:
-      minify_html: true
-
-extra:
-  social:
-    - icon: fontawesome/solid/users
-      link: http://bioinformatics.cancer.gov
-    - icon: fontawesome/brands/github
-      link: https://github.com/CCBR
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/orgs/nciccbr/repositories
 
 # Extensions
 markdown_extensions:
@@ -71,7 +36,3 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
-# Page Tree
-nav:
-  - Home: index.md
