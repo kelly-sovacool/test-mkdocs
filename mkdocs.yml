@@ -25,3 +25,12 @@ plugins:
   - git-revision-date
   - minify:
       minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/solid/users
+      link: http://bioinformatics.cancer.gov
+    - icon: fontawesome/brands/github
+      link: https://github.com/CCBR
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/orgs/nciccbr/repositories
