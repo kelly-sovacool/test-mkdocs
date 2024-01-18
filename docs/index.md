@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to MkDocs 🚀
 
 This text should be **bold**.
 
